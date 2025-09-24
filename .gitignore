@@ -1,0 +1,25 @@
+# ignore virtual environment
+.venv/
+venv/
+.env/
+
+# ignore macOS system files
+.DS_Store
+
+# ignore all contents in the data folder
+data/
+docs/
+
+# ignore data files, but do NOT ignore requirements.txt
+*.csv
+*.txt
+*.zip
+*.pt
+*.pdf
+!requirements.txt
+
+artifacts/
+results/
+
+# ignore files that are not used
+not_used/
